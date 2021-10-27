@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/imagenes/gym.jpg);
+    background-size: cover;
+}
+
+.header{
+    background-color: brown;
+    width: 80%;
+    height: 40px;
+    margin:10px auto;
+
+    line-height: 40px;
+
+    
+}
+
+.header-nav{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header-preguntas{
+    display: flex;
+    line-height:40px ;
+
+    color: white;
+
+    margin: 0 10px;
+}
+
+.header-preguntas h2{
+    margin:0 30px;
+}
+
+.header-preguntas input{
+    width: 160px;
+    height: 25px;
+
+    margin-top: 8px;
+}
+
+.nav-1 {
+    list-style: none;
+    display: flex;
+    
+    position: relative;
+    
+}
+
+.nav-1 a{
+
+    font-size: 20px;
+    text-decoration: none;
+
+    margin: 20px;   
+    color: white;
+    font-weight: 700; 
+    
+}
+
+.nav-2 {
+    position: absolute;
+    
+    list-style: none;
+    margin-top: 0px;
+    font-size: 20px;
+    display:none ;
+    
+
+    background-color: rgba(255, 255, 255, 0.363);
+
+    
+}
+
+.nav-2 li a{
+    margin-top: 40px;
+    color: black;
+}
+
+.nav-2 li a:hover{
+    background-color: rgba(95, 5, 5, 0.534);
+    padding: 5px 8px;
+
+    transition: 0.5s;
+    border-radius: 10px 0 0 0;
+}
+
+.titulo{
+    font-size: 150px;
+    position: absolute;
+
+    top: 400px;
+    left: 650px;
+    z-index: 0;
+}
+
+
+/* pestañas */
+
+.esplada1{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+
+    /* background-color: rgba(255, 99, 71, 0.534); */
+    display: none;
+    z-index: 20;
+}
+
+.esplada1 img{
+    width: 300px;
+
+    margin:20px 9px;
+}
+
+.esplada1 h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+.cerrar{
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: yellowgreen;
+
+    border-radius: 50px;
+
+    bottom: 0px;
+    left: 800px;
+
+    font-size: 20px;
+}
+
+/* PECHO */
+
+.pecho{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.74);
+
+    display: none;
+}
+
+.pecho img{
+    width: 300px;
+
+    margin:20px 9px;
+}
+
+.pecho h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+
+/* BRAZOS */
+
+.brazos{
+
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.781);
+    
+    display: none;
+}
+
+.brazos img{
+    width: 300px;
+    margin:20px 9px;
+}
+
+.brazos h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+
+/* HOMBROS */
+
+.hombro{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.781);
+    
+    display: none;
+}
+
+.hombro img{
+    width: 300px;
+    margin:20px 9px;
+}
+
+.hombro h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+/* ABDOMEN */
+
+.abdomen{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.781);
+    
+    display: none;
+}
+
+.abdomen img{
+    width: 300px;
+    margin:20px 9px;
+}
+
+.abdomen h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+/* PIERNAS */
+
+.pierna{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.781);
+    
+    display: none;
+}
+
+.pierna img{
+    width: 300px;
+    margin:20px 9px;
+}
+
+.pierna h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
+
+/* CARDIO */
+
+.cardio{
+    width: 95%;
+    height: 780px;
+    margin: auto;
+    background-color: rgba(255, 99, 71, 0.781);
+    
+    display: none;
+}
+
+.cardio img{
+    width: 300px;
+    margin:20px 9px;
+}
+
+.cardio h1{
+    font-size: 50px;
+    align-items: center;
+    line-height: 90px;
+    text-align: center;
+
+    color: white;
+}
